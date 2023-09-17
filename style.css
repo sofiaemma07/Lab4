@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size:400%;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar > li{
+    padding:10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: yellow;
+    cursor: pointer;
+}
+.navbar > li:hover{
+    background-color: rgb(0, 93, 168);
+}
+.custom-width{
+    max-width:500px;
+    margin: 0 auto;
+}
